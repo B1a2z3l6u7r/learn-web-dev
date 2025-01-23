@@ -1,0 +1,189 @@
+<!-- <!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class - 3| Web Development</title>
+
+</head>
+<body>
+ -->
+<!-- 
+HTML TABLE
+<table style="width: 1280; background-color: tomato; border: 2px solid blue; margin: 0 auto; border- border-collapse: collapse;">
+
+</table>
+<h1></h1>
+     -->
+</body>
+</html> 
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+
+        th {
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow Bold', sans-serif; font-size: 40px";">Table Formating: </caption><br><br>
+    
+
+    <table style="width: 1280; border: 2px solid blue; margin: 0 auto; border-collapse: collapse;">
+       <tr>
+        <th style="background-color: skyblue;">1 1</th>
+        <th style="background-color: yellowgreen;">1 2</th>
+        <th style="background-color: skyblue;">1 3</th>
+        <th style="background-color:aliceblue;">1 4</th>
+        <th  style="background-color:blueviolet;">1 5</th>
+        <th style="background-color:brown;">1 6</th>
+        <th style="background-color:cadetblue;">1 7</th>
+       </tr>
+       
+        <tr>
+        <td style="background-color: yellow;">2 1</td>
+        <td style="background-color: skyblue;">2 2</td>
+        <td style="background-color: yellowgreen;">2 3</td>
+        <td style="background-color:blue; color: white;">2 4</td>
+        <td style="background-color:violet;">2 5</td>
+        <td style="background-color:red;">2 6</td>
+        <td style="background-color:aliceblue;">2 7</td>
+        </tr>
+
+        <tr>
+            <td style="background-color: skyblue;">3 1</td>
+            <td style="background-color: yellowgreen;">3 2</td>
+            <td style="background-color: skyblue;">3 3</td>
+            <td style="background-color:aliceblue;">3 4</td>
+            <td style="background-color:blueviolet;">3 5</td>
+            <td style="background-color:brown;">3 6</td>
+            <td style="background-color:cadetblue;">3 7</td>
+           </tr>
+
+           <tr>
+            <td style="background-color: yellow;">4 1</td>
+            <td style="background-color: skyblue;">4 2</td>
+            <td style="background-color: yellowgreen;">4 3</td>
+            <td style="background-color:blue; color: white;">4 4</td>
+            <td style="background-color:violet;">4 5</td>
+            <td style="background-color:red;">4 6</td>
+            <td style="background-color:aliceblue;">4 7</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: skyblue;">5 1</td>
+                <td style="background-color: yellowgreen;">5 2</td>
+                <td style="background-color: skyblue;">5 3</td>
+                <td style="background-color:aliceblue;">5 4</td>
+                <td style="background-color:blueviolet;">5 5</td>
+                <td style="background-color:brown;">5 6</td>
+                <td style="background-color:cadetblue;">5 7</td>
+               </tr>
+
+    </table><br>
+
+    <caption>Table Row and column Span:</caption><br><br>
+
+        <table style="width:1280; margin: 0 auto;  border-collapse: collapse;">
+            <tr>
+                <th style="background-color: skyblue;">1 1</th>
+                <th style="background-color: yellowgreen;">1 2</th>
+                <th style="background-color: skyblue;">1 3</th>
+                <th style="background-color:aliceblue;">1 4</th>
+                <th rowspan="2" style="background-color: orange">1 5 + 2 5</th>
+                <th style="background-color:brown;">1 6</th>
+                <th rowspan="3" style="background-color:blue; color: white">1 7 + 2 7 + 3 7</th>
+            </tr>
+               
+            <tr>
+                <td style="background-color: yellow;">2 1</td>
+                <td colspan="2" style="background-color: white;">2 2 + 2 3</td>
+
+                
+
+                <td style="background-color:blue; color: white;">2 4</td>
+                
+                <td style="background-color:red;">2 6</td>
+             
+            </tr>
+        
+            <tr>
+                <td style="background-color: skyblue;">3 1</td>
+                <td style="background-color: yellowgreen;">3 2</td>
+                <td style="background-color: skyblue;">3 3</td>
+                <td style="background-color:aliceblue;">3 4</td>
+
+                <td colspan="2" rowspan="3" style="background-color:yellow;">3 5 + 3 6 + 4 5 + 4 6 + 5 5 + 6 5  </td>
+                 
+                  
+                </tr>
+        
+                <tr>
+                    <td style="background-color: yellow;">4 1</td>
+                    <td style="background-color: skyblue;">4 2</td>
+                    <td style="background-color: yellowgreen;">4 3</td>
+                    <td style="background-color:blue; color: white;">4 4</td>
+                    <!-- <td style="background-color:violet;">4 5</td>
+                    <td style="background-color:red;">4 6</td> -->
+                    <td style="background-color:aliceblue;">4 7</td>
+                    </tr>
+        
+                   <tr>
+                        <td style="background-color: skyblue;">5 1</td>
+                        <td style="background-color: yellowgreen;">5 2</td>
+                        <td style="background-color: skyblue;">5 3</td>
+                        <td style="background-color:aliceblue;">5 4</td>
+                        <!-- <td style="background-color:blueviolet;">5 5</td>
+                        <td style="background-color:brown;">5 6</td> -->
+                        <td style="background-color:cadetblue;">5 7</td>
+                    </tr>
+
+
+                    <tr>
+                        <td style="background-color: yellow;">6 1</td>
+                        <td colspan="3" style="background-color: blue; color: white">6 2 + 6 3 + 6 4 </td>
+                        
+                       
+                         
+                        <td style="background-color:violet;">6 5</td>
+                        <td colspan="2" rowspan="2" style="background-color:bisque;">6 6 + 6 7 + 7 6 + 7 7 </td>
+                       
+                    </tr>
+
+                        
+                    <tr>
+                        <td style="background-color: skyblue;">7 1</td>
+                        <td style="background-color: yellowgreen;">7 2</td>
+                        <td style="background-color: skyblue;">7 3</td>
+                        <td style="background-color:aliceblue;">7 4</td>
+                        <td style="background-color:blueviolet;">7 5</td>
+
+                       
+                    </tr>
+
+        </table>
+      
+      
+</body>
+
+</html>
