@@ -1,0 +1,46 @@
+/* Tag Selector*/
+h1,h2,p{
+    color: green;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: ye
+}
+
+/* ID Selector Use Once*/
+#my-text{
+    color: blue;
+}
+
+/* Class Selector Use As Many As You Want*/
+.my-title{
+    color:brown
+}
+
+
+/* Background Img */
+
+body{
+    background-image: url("./back.avif");
+    background-size: cover;
+}
+
+.btn{
+    float: right;
+    cursor: grab;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    background-color: #ffe2b3;
+}
+
+.btn:hover{
+    background-color: #f39c12;
+}
+
+
+.my-section{
+    display:inline-grid
+}

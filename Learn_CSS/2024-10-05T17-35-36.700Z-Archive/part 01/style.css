@@ -1,0 +1,42 @@
+:root{
+    --bg-color:green;
+    --padding-btn:20px;
+}
+
+
+.btn1{
+    background-color: var(--bg-color);
+    padding: var(--padding-btn);
+}
+
+.btn2{
+    background-color: var(--bg-color);
+    padding: var(--padding-btn);
+}
+
+.my-text{
+    font-family: "Dancing Script", cursive;
+    color:var(--bg-color);
+    text-decoration:none;
+    word-spacing: 10px ;
+    letter-spacing: 1px;
+}
+
+.my-div{
+    line-height: 180%;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+
+}
+
+
+
+.my-img-2{
+    filter: grayscale(0%) !important
+}
+.my-img{
+    width: 300px;
+    filter: grayscale(100%) 
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .board{
+            position: relative;
+            background-color: bisque;
+            border: 2px solid black;
+            width: 90%;
+            height: 900px;
+            margin: 40px;
+            padding: 50px
+        }
+
+        .notice-static{
+            border:1px solid black;
+            background-color: blue;
+            position:static;
+        }
+
+
+        .notice-relative{
+            border:1px solid black;
+            background-color: rgb(154, 226, 72);
+            position:relative;
+            top: 300px;
+            left: 100px;
+        }
+
+
+        .notice-sticky{
+            top: 0;
+            border:1px solid black;
+            background-color: rgb(228, 68, 19);
+            position:sticky;
+        }
+
+        .notice-fixed{
+            border:1px solid black;
+            background-color: rgb(225, 191, 56);
+            position:fixed;
+            top: 140px;
+            left: 10px;
+            z-index: 1000;
+        }
+
+
+        .notice-absolute{
+            top: 500px;
+            left: 10px;
+            border:1px solid black;
+            background-color: rgb(209, 33, 244);
+            position:absolute;
+        }
+
+        
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="board">
+
+        <div class="notice-static">আমি স্ট্যাটিক  নোট </div>
+
+        <div class="notice-relative">আমি রিলেটিভ  নোট </div>
+
+        <div class="notice-sticky">আমি স্টিকি নোট </div>
+
+
+        <div class="notice-absolute">আমি এবসুলে নোট </div>
+
+        <div class="notice-fixed">আমি ফিক্সড নোট </div>
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+1. CSS Introduction
+    - Cascading Style Sheets
+    - CSS is the language we use to style an HTML document
+    - CSS frameworks(Bootstrap,Foundation,Tailwind,Skeleton,Bulma)
+
+2. How to add CSS
+    - Inline 
+    - Internal CSS
+    - External CSS
+
+3. Basic Syntax
+
+4. Selector
+    - tag Selector (Default Style->Normalization-Normalize CSS )
+    - id Selector (Specific 1/2 action)
+    - class Selector (All Over the application)
+
+
+5. background properties
+
+6. border,border-radius,
+
+7. Cursor Property
+
+8. Float Property
+
+9. Display 
