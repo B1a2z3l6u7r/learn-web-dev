@@ -13,23 +13,23 @@
 }
 
 #main-header .logo{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    background: orange;
+    /* background: orange; */
     float: left;
             
 }
 
 .logo img{
-    padding: 25px 50px;
+    padding: 25px 30px;
 }
 
 #main-header .menu{
     width: 60%;
     height: 100%;
-    background: skyblue;
-    float: left;
-    
+    color: skyblue;
+    /* background: skyblue; */
+    float: left;    
 }
 
 #main-menu{
@@ -44,18 +44,18 @@
 #main-menu li a{
     color: #ffffff;
     /* color: red; */
-    font-size: 24.5px;
+    font-size: 24px;
     text-decoration: none;
-    padding: 36px 44px;
+    padding: 36px 41.66px;
     display: block;
     background: black;
    
 }
 
-
 #main-menu li a:hover{
-    background: #000000;
-    color: skyblue;
+    background: blanchedalmond;
+    /* background: #000000; */
+    color: black;
 }
 
 /* Drop Down Menu */
@@ -72,7 +72,7 @@
 
 #main-menu li ul li{
     float: none;
-    width: 430px;
+    width: 400px;
     position: relative;
 }
 
@@ -86,15 +86,29 @@
 
 #main-menu li ul li:hover ul{
     top:0;
-    left: 430px;
+    left: 400px;
     /* background: orange; */
 }
 
 
-
 #main-header .social-media{
-    width: 15%;
+    width: 20%;
     height: 100%;
-    background: blue;
+    /* background: blue; */
     float: left;
+}
+
+.social-media .social-media-item{
+    padding-top: 36px; 
+  
+}
+
+.social-media-item a{
+    font-size: 24px;
+    padding: 15px;
+  
+    color: #ffffff;
+   
+    /* background: black; */
+  
 }
