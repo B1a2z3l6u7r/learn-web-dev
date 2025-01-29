@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#main-header{
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    background: #000000;
+    /* display: flex; */
+}
+
+#main-header .logo{
+    width: 25%;
+    height: 100%;
+    background: orange;
+    float: left;
+            
+}
+
+.logo img{
+    padding: 25px 50px;
+}
+
+#main-header .menu{
+    width: 60%;
+    height: 100%;
+    background: skyblue;
+    float: left;
+    
+}
+
+#main-menu{
+    list-style-type: none;
+}
+
+#main-menu li{
+    float: left;
+    position: relative;
+}
+
+#main-menu li a{
+    color: #ffffff;
+    /* color: red; */
+    font-size: 24.5px;
+    text-decoration: none;
+    padding: 36px 44px;
+    display: block;
+    background: black;
+   
+}
+
+
+#main-menu li a:hover{
+    background: #000000;
+    color: skyblue;
+}
+
+/* Drop Down Menu */
+#main-menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -999999px;
+}
+
+#main-menu li:hover ul{
+ left: 0;
+}
+
+#main-menu li ul li{
+    float: none;
+    width: 430px;
+    position: relative;
+}
+
+/*Nested Menu */
+#main-menu li ul li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: -999999px;
+}
+
+#main-menu li ul li:hover ul{
+    top:0;
+    left: 430px;
+    /* background: orange; */
+}
+
+
+
+#main-header .social-media{
+    width: 15%;
+    height: 100%;
+    background: blue;
+    float: left;
+}
