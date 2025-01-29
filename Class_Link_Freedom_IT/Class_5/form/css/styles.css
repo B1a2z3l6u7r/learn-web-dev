@@ -14,9 +14,8 @@
 }
 
 #form{
-    width: 750px;
-  
-    /* background-image: url(../images/sky-moon1.jpg); */
+
+    width: 750px;   
     background-image: url(../images/night-moom-star-sky.jpg);
     
    background-position: center;
@@ -27,6 +26,7 @@
     margin:0 auto;
     padding: 30px;
     box-sizing: border-box;
+    
 }
 
 h2{
