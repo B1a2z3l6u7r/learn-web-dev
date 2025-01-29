@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+
+.personal-info{
+    width: 250px;
+    background: skyblue;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+
 #form{
     width: 750px;
   
@@ -68,9 +78,13 @@ button{
     border: none;
     outline: none;
     border-radius: 18px;
+    text-transform:uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
     margin-top: 10px;
     padding: 10px; 
-    text-decoration: aqua;
+    color: blue;
+    /* text-decoration: aqua; */
     cursor: pointer;
    
 
