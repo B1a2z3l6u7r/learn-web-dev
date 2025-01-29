@@ -5,24 +5,37 @@
 
 #form{
     width: 750px;
-
-   /*  height: 200px; */
-    background: gray;
+  
+    /* background-image: url(../images/sky-moon1.jpg); */
+    background-image: url(../images/night-moom-star-sky.jpg);
+    
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+     /* height: 200px; */
+    /* background: gray; */
     margin:0 auto;
     padding: 30px;
     box-sizing: border-box;
 }
 
-#form-group{
-    margin-top: 10px;
+h2{
 
+    margin-left: 35%;
+    color: white;
+   
 }
 
+#form-group{
+    margin-top: 20px;
+       
+}
 
 
 .form-group label{
 font-size: 20px;
 color: white;
+
 
 }
 
@@ -32,13 +45,14 @@ color: white;
 
 .form-group input{
     display: block;
-    width: 100%';
+    width: 100%;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 4px blue;
     padding: 8px;
     border: none;
     outline: none;
-    border-radius: 8 px;
+    border-radius: 10 px;
+    
     /* transition: 5s; */
     
 }
@@ -58,5 +72,6 @@ button{
     padding: 10px; 
     text-decoration: aqua;
     cursor: pointer;
+   
 
 }
