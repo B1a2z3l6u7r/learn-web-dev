@@ -7,6 +7,14 @@
 .boom{
     width: 200px;
     height: 200px;
-    background: tomato;
-    
+    background: skyblue;
+    display: inline-block;
+
+  
+}
+
+.cool{
+    height: 200px;
+    width: 200px;
+   
 }
